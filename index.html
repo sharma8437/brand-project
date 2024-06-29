@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brand</title>
+
+    <link rel="stylesheet" href="media.css">
+
+    <style>
+       
+
+
+
+        *{
+
+            padding: 0PX;
+            margin: 0PX;
+            box-sizing: border-box;
+           
+        }
+        body{
+            background-color: #e9e3e3;
+            font-family: titling-gothic-fb-wide, sans-serif;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+}
+
+
+        
+
+        nav{
+
+            /* border: 2px solid red; */
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            height: 40px;
+            align-items: center;
+            transform: translateY(-55px);
+        transition: all;
+        transition-delay: 4s;
+        transition-duration: 0.5s;
+           
+        }
+
+        .navi{
+
+            transform: translateY(0px);
+        }
+
+  
+.logo{
+    margin-left: 50px;
+}
+.logo :nth-child(1){
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: black;
+    cursor: pointer;
+   
+
+}
+.mid-text{
+
+    margin-right: 100px;
+}
+.nav-mid-text{
+
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: red;
+    cursor: pointer;
+   
+
+}
+.nav-right{
+
+    margin-right: 50px;
+   display: flex;
+}
+.nav-right-text{
+
+
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: black;
+    cursor: pointer;
+   
+
+
+}
+.menu-icon{
+
+   margin-right: 4px;
+   cursor: pointer;
+}
+
+.section-1{
+
+    /* border: 2px solid black; */
+    width: 480px;
+    height: 100px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 50px;
+
+    transform: translateX(-15px);
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    visibility:hidden;
+}
+.sectioni{
+
+    transform: translateX(0px);
+    visibility: visible;
+
+}
+
+.text-p{
+
+    opacity: 0.3;
+    color: #1e1e1e;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 900;
+ 
+
+}
+.img{
+
+    /* border: 2px solid red; */
+    width: 520px;
+    height: 640px;
+   
+    position: absolute;
+    top: 120px;
+    right: 130px;
+
+    background-image: url("https://uploads-ssl.webflow.com/5c2e95d3f539dc3c78c6c3ea/5c300a137569f51deafb015d_image.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transform: rotateX(90deg);
+  transition-property: all;
+  transition-delay: 1s;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transform-origin: 0% 0%;
+
+  
+
+}
+
+.imagei{
+
+    transform: rotateX(0deg);
+}
+
+
+.brand{
+
+    width: 80%;
+    height: 140px;
+    /* border: 2px solid red; */
+    /* margin-top: 10px; */
+    margin-left: 170px;
+    transform: scale(0);
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    
+
+
+}
+.brandi{
+
+    transform: scale(1);
+}
+
+
+.brand-text{
+
+    font-size: 130px;
+    letter-spacing: 170px;
+    font-weight: 900;
+    color: red;
+    line-height: 90px;
+   
+    
+}
+.play{
+    margin-left: 170px;
+    cursor: pointer;
+}
+.play-text{
+
+    margin-left: 170px;
+}
+.play-text2{
+
+margin-left: 170px;
+}
+.p1{
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: red;
+    line-height: 22px;
+}
+.p2{
+
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.section-2{
+
+    width: 700px;
+    height: 370px;
+    /* border: 2px solid red; */
+  
+}
+.aside{
+
+    /* border: 2px solid black; */
+    width: 80px;
+    height: 370px;
+}
+main{
+    display: flex;
+}
+.main-text-1{
+    margin-left: 120px;
+    margin-top: 20px;
+    transform: translateX(-15px);
+    transition-property: all;
+    transition-delay: 2s;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    visibility:hidden;
+}
+
+.marki{
+
+    visibility: visible;
+    transform: translateX(0px);
+
+
+}
+.m-1{
+
+    font-size: 50px;
+   font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 43px;
+    
+}
+.mid-text-box{
+
+    width: 500px;
+    height: 110px;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    margin-left: 190px;
+
+    transform: translateX(-25px);
+    transition-property: all;
+    transition-delay: 3s;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    visibility:hidden;
+}
+.midtexti{
+
+    visibility: visible;
+    transform: translateX(0px);
+}
+.pra-text{
+
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.footer-div{
+
+    margin-left: 190px;
+    margin-top: 80px;
+    font-weight: bolder;
+
+    transform: translateX(-15px);
+    transition-property: all;
+    transition-delay: 3.74s;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    visibility: hidden;
+   
+
+}
+.footeri{
+
+    transform: translateX(0px);
+    visibility: visible;
+}
+
+h4{
+
+    color: gray;
+}
+h5{
+    color: rgb(194, 186, 186);
+}
+.aside{
+
+    text-orientation:sideways;
+
+    
+}
+.aside-text{
+
+    writing-mode: vertical-rl;
+    font-size: 9px;
+    transform: rotate(180deg);
+    letter-spacing: 4px;
+    margin-top: 150px;
+    margin-left: 40px;
+    color: black;
+    font-weight: bold;
+}
+.scribe{
+
+    position: relative;
+    top: 390px;
+    left: 400px;
+    color: red;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+
+.line{
+    width: 240px;
+    height: 2px;
+
+    background-color: red;
+}
+.play-con{
+
+    /* border: 2px solid red; */
+    transform: translateX(-15px);
+    transition-property: all;
+    transition-delay: 1.40s;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    visibility:hidden;
+}
+.playi{
+
+    visibility: visible;
+    transform: translateX(0px);
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+   <nav>
+
+       
+       <div class="logo">
+           <h4 class="nav-left-text">for collaboration +</h4>
+        </div>
+        
+        <div class="mid-text">
+            
+            <h4 class="nav-mid-text">content universe </h4>
+        </div>
+
+      <div class="nav-right">
+        <img src="https://uploads-ssl.webflow.com/5c2e95d3f539dc3c78c6c3ea/5c300a907569f52061fb0257_bx-menu-alt-right.svg" width="16" alt="" class="menu-icon">
+        <h4 class="nav-right-text">menu</h4>
+      </div>
+    </nav>
+    
+    <section class="section-1">
+        
+        <p class="text-p">We are a content creation team <br>and we are going to make SOME <br>cool stuff for your</p>
+        
+        
+        
+    </section>
+    
+
+        <div class="img">
+            
+        </div>
+   
+    <div class="brand">
+<p class="brand-text">brand</p>
+
+    </div>
+
+    <main>
+        <div class="aside">
+
+            <p class="aside-text">scroll for all services</p>
+        </div>
+
+        <div class="section-2">
+
+            <div class="play-con">
+
+           
+            
+            <div class="play">
+                <img src="https://uploads-ssl.webflow.com/5c2e95d3f539dc3c78c6c3ea/5c2ecbf23ded38276494978b_play.svg" width="16" alt="" class="play-icon">
+                
+            </div>
+            
+            <div class="play-text">
+                <p class="p1">play video</p>
+            </div>
+            <div class="play-text2">
+                <p class="p2">about us</p>
+            </div>
+
+        </div>
+
+            <div class="main-text-1">
+                <p class="m-1">marketing</p>
+                <p class="m-1">strategy</p>
+            </div>
+
+            <div class="mid-text-box">
+
+                <p class="pra-text">Our content marketing strategists <br>take a scientific approach to <br>content campaigns, using hard data to craft the perfect strategy for<br> any client's goals.</p>
+            </div>
+
+            <div class="footer-div">
+
+                <h3>content creation</h3>
+                <h4>social and paid</h4>
+                <h5>website design</h5>
+            </div>
+            
+           
+        
+        </div>
+
+        <div class="scribe">
+
+            <p class="scribe-text">subscribe for our news/events</p>
+            <div class="line"></div>
+        </div>
+
+        </main>
+
+        <script>
+
+
+window.onload = function() {
+        const boxBrand = document.querySelector('.brand');
+        boxBrand.classList.add('brandi');
+
+// window.onload = function() 
+        const brandBox = document.querySelector('nav');
+        brandBox.classList.add('navi');
+
+        const sideBox = document.querySelector('.section-1');
+        sideBox.classList.add('sectioni');
+
+        const playBox = document.querySelector('.play-con');
+        playBox.classList.add('playi');
+
+        const markBox = document.querySelector('.main-text-1');
+        markBox.classList.add('marki');
+
+        const midBox = document.querySelector('.mid-text-box');
+        midBox.classList.add('midtexti');
+
+        const imgBox = document.querySelector('.img');
+        imgBox.classList.add('imagei');
+
+        const footBox = document.querySelector('.footer-div');
+        footBox.classList.add('footeri');
+}
+
+
+
+
+        </script>
+
+
+       
+    
+</body>
+</html>
